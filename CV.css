@@ -1,0 +1,101 @@
+.resume-outer {
+    width: 65%;
+    display: flex;
+    margin: 5% auto;
+    border: 1px solid;
+}
+
+body {
+    margin: 0;
+    font-family: cursive;
+}
+
+.resume-inner-left .left-img img {
+    width: 200px;
+    box-shadow: 0px 0px 20px 5px #888888;
+    margin-top: 20px;
+}
+.resume-inner-left {
+    flex: 0 30%;
+    padding: 25px;
+    background-color: #e6f2ff;
+}
+
+.resume-inner-right {
+    flex: 0 70%;
+    padding: 40px 25px;
+}
+.resume-inner-right .name {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.blue-line {
+    border-bottom: 2px solid #b3d9ff;
+}
+.resume-inner-right p {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: 600;
+}
+.resume-inner-right p.blue-line {
+    text-transform: uppercase;
+}
+.resume-inner-left p.blue-line {
+    text-transform: uppercase;
+}
+
+.resume-inner-left p.left-contact-data {
+    margin: 0;
+}
+
+.resume-inner-left p.left-contact-data a {
+    color: #4dc3ff;
+}
+.resume-inner-left .contact-div {
+    margin: 50px 0px;
+}
+.resume-inner-left p.blue-line {
+    font-size: 18px;
+    font-weight: 600;
+}
+.resume-inner-left .left-img {
+    text-align: center;
+}
+.resume-outer p.small {
+    font-size: 15px;
+}
+.resume-outer .italic {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+}
+/*** responsive-code****/
+
+/** ipad ***/
+
+@media (max-width: 1080px) {}
+
+
+/** ipad nd tab ***/
+
+@media only screen and (min-width:768px) and (max-width: 1024px) and (orientation : portrait){
+    .resume-outer {
+        display: block;
+    }
+}
+
+
+/** iphone roatate***/
+
+@media (max-width: 767px) {
+    .resume-outer {
+        display: block;
+    }
+}
+
+
+
+/** iphone ***/
+@media (max-width: 479px) {}
