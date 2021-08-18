@@ -64,13 +64,16 @@ body {
 .resume-inner-left .left-img {
     text-align: center;
 }
-.resume-outer p.small {
+.resume-outer .small {
     font-size: 15px;
 }
 .resume-outer .italic {
     font-size: 15px;
     font-style: italic;
     font-weight: 500;
+}
+.resume-inner-left p.title {
+    text-transform: capitalize;
 }
 /*** responsive-code****/
 
